@@ -1,12 +1,15 @@
 # dot-files
 
+Python-mode: http://www.tecmint.com/python-mode-a-vim-editor-plugin/
+
+
 1. copy stuff to ~
 
 2. Set up [Vundle]:
 
    `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
    
-3. Set up [python-mode]:
+3. Set up [python-mode] :
     
    `$ cd ~/.vim; mkdir -p bundle && cd bundle; git clone https://github.com/klen/python-mode.git`
     
