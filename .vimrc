@@ -64,6 +64,7 @@ map <S-t> :tabnew<cr>
 map Z :tabprevious<cr>
 map X :tabnext<cr>
 map D :NERDTreeToggle<cr>
+map L :PymodeLint<cr>
 nmap <silent> <C-g> :Gitv<CR>
 nmap <silent> <C-up> :wincmd k<CR>
 nmap <silent> <C-down> :wincmd j<CR>
@@ -100,7 +101,8 @@ let g:jedi#use_tabs_not_buffers = 1
 let g:jedi#popup_select_first = 0
 autocmd FileType python setlocal completeopt-=preview
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|env'
-
+let g:pymode_trim_whitespaces = 1
+let g:pymode_folding = 1
 """" END plugins Configuration 
 
 
@@ -131,3 +133,4 @@ endfunction
 """" END lightline Configuration 
 
 execute pathogen#infect()
+call pathogen#helptags()
