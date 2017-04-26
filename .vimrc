@@ -103,11 +103,15 @@ autocmd FileType python setlocal completeopt-=preview
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|env'
 let g:pymode_trim_whitespaces = 1
 let g:pymode_folding = 1
+" let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'mccabe', 'pylint']
+let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'mccabe']
+let g:pymode_lint_sort = ['E', 'C', 'I']
 """" END plugins Configuration 
 
 
 """" START lightline Configuration 
 let g:lightline = {
+      \ 'colorscheme': 'wombat',
       \ 'component_function': {
       \   'filetype': 'MyFiletype',
       \   'fugitive': 'MyFugitive',
