@@ -21,3 +21,10 @@ Python-mode: http://www.tecmint.com/python-mode-a-vim-editor-plugin/
     `mkdir -p ~/.local/share/fonts; cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf"     https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20for%20Powerline%20Nerd%20Font%20Complete.otf`
     
 6. Profit!
+
+
+
+
+Notes:
+mac fonts: https://github.com/taohex/fonts/blob/master/Monaco%20for%20Powerline%20Nerd%20Font%20Complete.otf
+To make this work in mac, be sure to have vim 8 and reinstall python-mode to fix the lint.vim error.
